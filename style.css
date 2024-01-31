@@ -1,0 +1,9 @@
+body {
+    background-color: #fcfbf4;
+    font-family: Cambria;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
