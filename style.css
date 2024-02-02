@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbf4;
+    font-family: "Open Sans", sans-serif;
+    color: #2b2a26;
+}
+
+/* HEADER / NAVIGATION BAR */
+
+.nav-links li, .nav-links a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #eb5e28;
+    text-decoration: none;
+}
+
+nav {
+    height: 50px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    color: #565453;
+    text-decoration: underline;
+}
+
+
+/* MAIN ELEMENTS */
+
+/* SHORT INTRO AND PHOTO SECTION */
+
+/*  In charge of all sections, turns each one into flexbox parent */
+section {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* controls all container elements */
+.container {
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#intro h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+#photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#MSU {
+    width: 1000px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #MSU {
+        width: 500px;
+    }
+}
