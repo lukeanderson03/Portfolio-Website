@@ -6,48 +6,94 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<!--Main body of home page-->
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="####">home</a></li>
-                <li><a href="###">projects</a></li>
-                <li><a href="##">contact</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <p><a href="/index.html">about</a></p>
+        <p><a href="##">projects</a></p>
+        <p><a href="###">contact</a></p>
     </header>
-    <!--Basic info about me and photo. Main will be a container holding two seperate containers-->
-    <main>
-        <section class="introduction">
-            <div class="container" id="intro">
-                <h1>Luke Anderson</h1>
-                <br>
-                <p>Hello! My name is Luke Anderson and I am <span style="color: #eb5e28">front-end developer</span> with a primary focus on
-                creating compelling user interfaces. I am interested in working with companies to
-                help implement <span style="color: #eb5e28">front-end design and technical skills</span> with their projects.
-                I am very <span style="color: #eb5e28">project-driven</span>, and learn best when working with others.
-                If you are looking for an innovative, collaborative, ambitous, and passionate worker feel free to take a look
-                at the rest of my site!
-                </p>
+    <section class="main">
+        <div class="intro">
+            <h1>Luke Anderson</h1>
+            <br>
+            <p>Hello! My name is Luke Anderson and I am a<span style="color: #eb5e28"> front-end developer</span> with a primary focus
+                on creating compelling <span style="color: #eb5e28">user interfaces</span>. I am interested in working with companies
+                to help implement <span style="color: #eb5e28">front-end design</span> and <span style="color: #eb5e28">technical skills</span> with their projects.
+                I am very project-driven, and learn best when working with others. If you are
+                looking for an innovative, collaborative, ambitous, and passionate worker feel
+                free to take a look at the rest of my site!
+            </p>
             </div>
-            <div class="container" id="photo">
-                <img src="/Headshot.PNG" alt="Luke Anderson's headshot.">
-            </div>
-        </section>
+        <div class="photo">
+            <img src="/Images/Headshot.PNG" alt="Luke Anderson's headshot">
+        </div>
+    </section>
+    <article class="education">
+        <h1>Education</h1>
         <br>
-        <section class="details">
-            <div class="container" id="MSU">
-                <h2>Education</h2>
-                <br>
-                <h3>Michigan State University</h3>
-                <p><span style="font-weight: bold;">2023-Present</span></p>
-                <p>I transfered from Wayne State University to Michigan State University over the summer
-                    of 2023. I changed my major from computer science to information science after transferring.
-                    During my time attending MSU, I have grown as a student, person, and front-end developer.
-                </p>
-            </div>
-        </section>
-    </main>
+        <div class="logo-button">
+            <h2>
+                <a href="https://msu.edu/" target="blank">
+                    <button><img src="/Images/MSU Logo.png" alt="Link to MSU homepage"></button>
+                </a>
+                Michigan State University
+            </h2>
+        </div>
+        <h3>2023 - Present</h3>
+        <p>I transferred from Wayne State University to Michigan State University over
+                the summer of 2023. I changed my major from computer science to information
+                science after transferring. During my time attending MSU, I have grown as a
+                student, person, and front-end developer.</p>
+        <br><br>
+        <div class="logo-button">
+            <h2>
+                <a href="https://wayne.edu/" target="blank">
+                    <button><img src="/Images/Wayne State Logo.png" alt="Link to WSU homepage"></button>
+                </a>
+                Wayne State University
+            </h2>
+        </div>
+        <h3>2021 - 2023</h3>
+        <p>After completing high school in 2021, I continued my education at Wayne State
+            University. During my time at WSU, I worked towards completing a computer
+            science degree. I enjoyed studying computer science, and learned a lot of the basics
+            during my two years at Wayne State. Originally, I believed a school like Wayne would
+            fit my needs best. It was smaller, close to home, and in an urban environment.
+            However, during my sophomore year I started to feel like I needed a change of pace.
+            I decided to apply for a transfer over the summer of 2023, and when my application
+            was accepted I had a decision to make. The prerequisites for the computer science
+            programs at Wayne State and Michigan State were different. This means that if I were
+            to transfer to MSU I would have to use my junior year to take those classes to be
+            able to apply to the computer science program. This would have set my graduation year
+            back by at least a year. After some thought, I decided I would transfer schools and
+            switch my major to information science.
+        </p>
+    </article>
+    <br>
+    <article class="recent">
+        <h2>Recently</h2>
+        <br>
+        <p>Since transferring to MSU, I have been spending most of my time learning front-end
+            web development. I have been working on the CodeCademy full-stack developer pathway
+            mostly while also learning from other online resources like YouTube and Stack Overflow.
+            I plan on completing this course to recieve my certificate, however, as of right now I 
+            have mostly learned just the font-end side of things. CodeCademy has taught me a lot of
+            things I wouldn't have learned with a computer science degree and I am very grateful
+            for that. As of right now, my focus has been learning JavaScript and React. So far,
+            everything is going great!
+        </p>
+    </article>
+    <br>
+    <footer class="footer">
+        <h1>Skills</h1>
+        <br>
+        <ul class="skills">
+            <li><img src="/Images/HTML Logo.png" alt="HTML Logo"></li>
+            <li><img src="/Images/CSS Logo.png" alt="CSS Logo"></li>
+            <li><img src="/Images/JavaScript Logo.webp" alt="JavaScript Logo"></li>
+            <li><img src="/Images/React Logo.png" alt="React Logo"></li>
+            <li><img src="/Images/GIT download.png" alt="Git Logo"></li>
+        </ul>
+    </footer>
 </body>
 </html>
