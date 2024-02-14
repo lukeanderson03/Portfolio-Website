@@ -9,44 +9,59 @@
     <script defer src="JS/index.js"></script>
 </head>
 <body>
-    <!--<header class="header">
+
+    <!-------------------------------- HEADER SECTION ---------------------------------------->
+    
+    <header class="header">
         <p><a href="/index.html">about</a></p>
         <p><a href="##">projects</a></p>
         <p><a href="###">contact</a></p>
     </header>
--->
-    <section class="main">
-        <div class="intro">
-            <h1>Luke Anderson</h1>
-            <br>
-            <p>Hello! My name is Luke Anderson and I am a<span style="color: #eb5e28"> front-end developer</span> with a primary focus
-                on creating compelling <span style="color: #eb5e28">user interfaces</span>. 
-                I have spent the past eight months learning website design using languages such as <span style="color: #eb5e28">
-                HTML, CSS, </span>and <span style="color: #eb5e28">JavaScript.</span>
-                I am interested in working with companies
-                to help implement <span style="color: #eb5e28">front-end design</span> and <span style="color: #eb5e28">technical skills</span> with their projects.
-                I am very project-driven, and learn best when working with others. If you are
-                looking for an innovative, collaborative, ambitous, and passionate worker feel
-                free to take a look at the rest of my site!
-            </p>
-            </div>
-        <div class="photo">
-            <img src="Images/Headshot.PNG" alt="Luke Anderson's headshot">
-        </div>
+
+    <!------------------------------ LOGO / INTRO SECTION ------------------------------------>
+    
+    <section class="logo">
+        <h2>Luke Anderson</h2>
+        <img src="Images/Headshot_Logo copy.png" alt="Luke Anderson's headshot">
     </section>
-    <article class="education">
-        <h1>Education</h1>
-        <br>
-        <div class="logo-button">
-            <h2>
-                <a href="https://msu.edu/" target="blank">
-                    <button><img src="Images/MSU Logo.png" alt="Link to MSU homepage"></button>
-                </a>
-                Michigan State University
-            </h2>
-        </div>
-        <h3>2023 - Present</h3>
-        <p>Since switching majors and schools, I have found myself programming more than ever (and yes,
+    <div class="email">
+        <a href=mailto:"andersonluke0330@gmail.com" target="_blank">Email me!</a>
+        <img src="Images/Mail_Logo.png" alt="Mail Logo">
+    </div>
+    <br>
+    <h3 class="div_heading">&lt;div class="About"&gt;</h3>
+    <br>
+    <section class="container" id="intro">
+        <h4 class="tags">&lt;me&gt;</h4>
+        <p class="div_p">
+            Hello! My name is Luke Anderson and I am a<span style="color: #eb5e28">
+            front-end developer</span> with a primary focus on creating 
+            compelling <span style="color: #eb5e28">user interfaces</span>. I have
+            spent the past eight months learning website design using languages such
+            as <span style="color: #eb5e28"> HTML, CSS, </span>and
+            <span style="color: #eb5e28">JavaScript.</span> I am interested in working
+            with companies to help implement <span style="color: #eb5e28">front-end design</span>
+            and <span style="color: #eb5e28">technical skills</span> with their projects.
+            I am very project-driven, and learn best when working with others. If you are
+            looking for an innovative, collaborative, ambitous, and passionate worker feel
+            free to take a look at the rest of my site!
+        </p>
+        <h4 class="tags">&lt;/me&gt;</h4>
+    </section>
+
+    <!-------------------------------- MICHIGAN STATE SECTION -------------------------------------->
+    <br>
+    <h3 class="div_heading">&lt;div class="Education"&gt;</h3>
+    <br>
+    <div class="logo_button">
+        <a href="https://msu.edu/" target="_blank">
+            <button><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Michigan_State_University_logo.png" alt="Link to MSU homepage"></button>
+        </a>
+    </div>
+    <h4 class="date_from">2023 - Present</h4>   
+    <article class="container" id="MSU">
+        <h4 class="tags">&lt;msu&gt;</h4>
+        <p class="div_p">Since switching majors after transferring to Michigan State University, I have found myself programming more than ever (and yes,
             this may partly be due to the new amount of free time I've experienced without a comp sci
             workload).
             While I really enjoyed studying computer science at Wayne State, the change to information
@@ -55,17 +70,20 @@
             and more efficient. This has helped me understand how important it is to think about users
             when implementing technical and design choices.
         </p>
-        <br><br>
-        <div class="logo-button">
-            <h2>
-                <a href="https://wayne.edu/" target="blank">
-                    <button><img src="Images/Wayne State Logo.png" alt="Link to WSU homepage"></button>
-                </a>
-                Wayne State University
-            </h2>
-        </div>
-        <h3>2021 - 2023</h3>
-        <p>After completing high school in 2021, I continued my education at Wayne State University.
+        <h4 class="tags">&lt;/msu&gt;</h4>
+    </article>
+    <br><br>
+
+    <!--------------------------------- WAYNE STATE SECTION ----------------------------------->
+    <div class="logo_button">
+        <a href="https://wayne.edu/" target="_blank">
+            <button><img src="https://mac.wayne.edu/images/engineering_horz_color.png" alt="Link to WSU homepage"></button>
+        </a>
+    </div>
+    <h4 class="date_from">2021 - 2023</h4>
+    <article class="container" id="WSU">
+        <h4 class="tags">&lt;wsu&gt;</h4>
+        <p class="div_p">After completing high school in 2021, I continued my education at Wayne State University.
             During my time at WSU, I worked towards completing a computer science degree.
             I enjoyed studying computer science and learned a lot of the basics during my two
             years at Wayne State. Originally, I believed a school like Wayne would fit my needs
@@ -79,12 +97,14 @@
             After some thought, I decided I would transfer schools and switch my major to
             information science.
         </p>
+        <h4 class="tags">&lt;/wsu&gt;</h4>
     </article>
     <br>
-    <article class="recent">
-        <h2>Recently</h2>
-        <br>
-        <p>I have been spending most of my time learning front-end web development.
+    <h3 class="div_heading">&lt;div class= "Recently"&gt;</h3>
+    <br>
+    <article class="container" id="about">
+        <h4 class="tags">&lt;now&gt;</h4>
+        <p class="div_p">I have been spending most of my time learning front-end web development.
             I have been working on the Codecademy full-stack developer pathway mostly
             while also learning from other online resources like YouTube and Stack Overflow.
             I plan on completing this course to receive my certificate, however, as of right now,
@@ -93,10 +113,11 @@
             that. As of right now, my focus has been learning JavaScript and React. So far,
             everything is going great!
         </p>
+        <h4 class="tags">&lt;/now&gt;</h4>
     </article>
     <br>
+    <h3 class="div_heading">&lt;div class= "Skills"&gt;</h3>
     <footer class="footer">
-        <h1>Skills</h1>
         <br>
         <div class="skills">
             <button id="HTML-Logo"><img src="Images/HTML Logo.png" alt="HTML Logo"></button>
