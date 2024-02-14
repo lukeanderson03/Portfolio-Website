@@ -86,7 +86,8 @@ p {
 
 /* -------------------------------------INTRODUCTION SECTION -------------------------------------*/
 .div_heading {
-    align-self: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 0px;
     font-weight: 700;
     font-size: 3.2rem;
