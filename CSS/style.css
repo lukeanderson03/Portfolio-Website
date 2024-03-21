@@ -226,9 +226,15 @@ p {
     .div_heading {
         font-size: 6vw;
     }
-    
+
+    #button_container {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
     .contact_buttons a {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin: 10px;
     }
     
 }
@@ -273,7 +279,7 @@ p {
         margin: 10px 0px;
     }
 
-    #button_container {
-        flex-wrap: wrap;
+    .contact_buttons a {
+        font-size: 1rem;
     }
 }
